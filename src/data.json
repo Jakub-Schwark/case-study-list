@@ -1,0 +1,181 @@
+[
+    {
+      "key": "0",
+      "label": "Administracja",
+      "title": "Administartion",
+      "type": "checkbox",
+      "children": [
+        {
+          "key": "0-0",
+          "label": "Dzial HR",
+          "title": "Hr",
+          "type": "radio",
+          "children": [
+            {
+              "key": "0-0-1",
+              "label": "Hr Menedzer 1",
+              "title": "Hr-manager",
+              "type": "checkbox",
+              "children": [
+                    {
+                        "key": "0-0-1-1",
+                        "label": "Pracownik dzialu hr-1",
+                        "title": "hr-employee",
+                        "type": "checkbox"
+                      },
+                      {
+                        "key": "0-0-1-2",
+                        "label": "Pracownik dzialu hr-2",
+                        "title": "hr-employee",
+                        "type": "checkbox"
+                      },
+                      {
+                        "key": "0-0-1-3",
+                        "label": "Pracownik dzialu hr-3",
+                        "title": "hr-employee",
+                        "type": "checkbox"
+                      }
+              ]
+            },
+            {
+                "key": "0-0-2",
+                "label": "Hr Menedzer 2",
+                "title": "Hr-manager",
+                "type": "checkbox",
+                "children": [
+                      {
+                          "key": "0-0-2-1",
+                          "label": "Pracownik dzialu hr-1",
+                          "title": "hr-employee",
+                          "type": "checkbox"
+                        },
+                        {
+                          "key": "0-0-2-2",
+                          "label": "Pracownik dzialu hr-2",
+                          "title": "hr-employee",
+                          "type": "checkbox"
+                        },
+                        {
+                          "key": "0-0-2-3",
+                          "label": "Pracownik dzialu hr-3",
+                          "title": "hr-employee",
+                          "type": "checkbox"
+                        }
+                ]
+              }
+          ]
+        },
+        {
+          "key": "0-1",
+          "label": "Ksiegowosc",
+          "title": "Accounting",
+          "type": "radio",
+          "children": [
+              {
+              "key": "0-1-1",
+              "label": "Menedzer Ksiegowosci",
+              "title": "Accounting-manager",
+              "type": "checkbox",
+              "children": [
+                     {
+                        "key": "0-1-1-1",
+                        "label": "Pracownik Ksiegowosci-1",
+                        "title": "Accountint-Employee",
+                        "type": "checkbox"
+                    },
+                    {
+                        "key": "0-1-1-2",
+                        "label": "Pracownik Ksiegowosci-2",
+                        "title": "Accountint-Employee",
+                        "type": "checkbox"
+                    }
+             ]
+            }
+          ]
+        } 
+      ]
+    },
+    {
+      "key": "1",
+      "label": "Programisci",
+      "title": "Developers",
+      "type": "checkbox",
+      "children": [
+        {
+          "key": "1-0",
+          "label": "Programisci Front-Endu",
+          "title": "Front-End",
+          "type": "checkbox",
+          "children": [
+            {
+                "key": "1-0-1",
+                "label": "Leader Front-Endu",
+                "title": "Front-End-Leader",
+                "type": "checkbox",
+                "children": [
+                       {
+                          "key": "1-0-1-1",
+                          "label": "Programista Front-End-1",
+                          "title": "Front-End-Dev",
+                          "type": "checkbox"
+                      },
+                      {
+                          "key": "1-0-1-2",
+                          "label": "Programista Front-End-2",
+                          "title": "Front-End-Dev",
+                          "type": "checkbox"
+                      },
+                      {
+                        "key": "1-0-1-3",
+                        "label": "Programista Front-End-3",
+                        "title": "Front-End-Dev",
+                        "type": "checkbox"
+                    }
+               ]
+              }
+          ]
+        },
+        {
+          "key": "1-1",
+          "label": "Programisci Back-Endu",
+          "title": "Back-End",
+          "type": "checkbox",
+          "children": [
+            {
+                "key": "1-1-1",
+                "label": "Leader Back-Endu",
+                "title": "Back-End-Lead",
+                "type": "checkbox",
+                "children": [
+                       {
+                          "key": "1-1-1-1",
+                          "label": "Programista Back-End-1",
+                          "title": "Back-End-Dev",
+                          "type": "checkbox"
+                      },
+                      {
+                          "key": "1-1-1-2",
+                          "label": "Programista Back-End-2",
+                          "title": "Back-End-Dev",
+                          "type": "checkbox"
+                      },
+                      {
+                        "key": "1-1-1-3",
+                        "label": "Programista Back-End-3",
+                        "title": "Back-End-Dev",
+                        "type": "checkbox"
+                    }
+               ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "label": "Nieprzypisany",
+      "title": "Empty",
+      "type": "checkbox",
+      "children": []
+    }
+  ]
